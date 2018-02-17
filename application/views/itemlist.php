@@ -5,10 +5,5 @@
                 <th>Status</th>
         </tr>
         {display_tasks}
-        <tr>
-            <td>{id}</td>
-            <td>{task}</td>
-            <td>{status}</td>
-        </tr>
-        {/display_tasks}    
+         
 </table>
