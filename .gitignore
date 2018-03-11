@@ -17,4 +17,5 @@ application/logs/*
 /vendor/
 /nbproject/private/
 /nbproject/
-../tmp
+/tmp/*
+/tests/coverage/*
