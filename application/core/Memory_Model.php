@@ -49,7 +49,7 @@ class Memory_Model extends Entity implements DataMapper
 
 		// start with an empty collection
 		$this->_data = array(); // an array of objects
-		$this->fields = array(); // an array of strings
+		$this->_fields = array(); // an array of strings
 		// and populate the collection
 		//$this->load();	// UNCOMMENT THIS LINE IF PERSISTENT
 	}

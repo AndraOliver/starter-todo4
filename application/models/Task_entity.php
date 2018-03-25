@@ -14,13 +14,41 @@
 class Task_entity extends Entity {
     //put your code here
     private $task;
+    private $id;
     private $priority;
     private $size;
     private $group;
     private $status;
+    private $deadline;
+    private $flag;
     //Create Setters for Form fields 
+    //
+    
+    function getId() {
+    return $this->id;
+    }
 
-  public function setTask($task) {
+    function setId($id) {
+    $this->id = $id;
+    }
+
+    function getDeadline() {
+        return $this->deadline;
+    }
+
+    function getFlag() {
+        return $this->flag;
+    }
+
+    function setDeadline($deadline) {
+        $this->deadline = $deadline;
+    }
+
+    function setFlag($flag) {
+        $this->flag = $flag;
+    }
+
+      public function setTask($task) {
         
         if (empty($task))
         {
